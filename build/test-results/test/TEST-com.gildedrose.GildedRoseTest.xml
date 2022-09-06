@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="8" skipped="0" failures="1" errors="0" timestamp="2022-09-06T16:52:58" hostname="mahmouds-MacBook-Pro.local" time="0.029">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="13" skipped="0" failures="1" errors="0" timestamp="2022-09-06T20:12:35" hostname="mahmouds-MacBook-Pro.local" time="0.051">
   <properties/>
-  <testcase name="qualityOfAnItemIsNeverMoreThan50()" classname="com.gildedrose.GildedRoseTest" time="0.021">
+  <testcase name="backstagePassesItemQualityDropsToZeroAfterConcert()" classname="com.gildedrose.GildedRoseTest" time="0.029"/>
+  <testcase name="elixirOfTheMongooseItemQualityDecreasesByNextDay()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="dexterityVestItemQualityDecreasesByNextDay()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="qualityOfAnItemIsNeverMoreThan50()" classname="com.gildedrose.GildedRoseTest" time="0.004">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;+5 Dexterity Vest, 9, 49&gt; but was: &lt;+5 Dexterity Vest, 9, 50&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;+5 Dexterity Vest, 9, 49&gt; but was: &lt;+5 Dexterity Vest, 9, 50&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -99,13 +102,15 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="sulfurasLegendaryItemNeverSoldOrDecreasesInQuality()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="sulfurasLegendaryItemNeverSoldOrDecreasesInQuality()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="agedBrieItemQualityIncreasesTheOlderItGets()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="foo()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="backstagePassesItemQualityIncreasesInQualityTheOlderItGets()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="qualityOfAgedBrieItemIsNeverMoreThan50()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="elixirOfTheMongooseItemQualityDecreaseByNextDay()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="dexterityVestItemQualityDecreaseByNextDay()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="agedBrieItemQualityIncreasesInQualityTheOlderItGets()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="qualityOfAgedBrieItemIsNeverMoreThan50()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="backstagePassesItemQualityIncreasesByThreeWhenThereAreFiveDays()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="backstagePassesItemQualityIncreasesByTwoWhenThereAreTenDays()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstagePassesItemQualityIncreasesTheOlderItGets()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstagePassesItemQualityIncreasesByThreeWhenThereAreLessThanFiveDaysAndMoreThanZeroDays()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstagePassesItemQualityIncreasesByTwoWhenThereAreLessThanTenDaysAndMoreThanFiveDays()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
