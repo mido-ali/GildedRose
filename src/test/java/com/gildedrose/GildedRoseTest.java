@@ -122,4 +122,12 @@ class GildedRoseTest {
         app.updateQuality();
         assertEquals(app.items[0].toString(), new Item("Backstage passes to a TAFKAL80ETC concert", -1, 0).toString());
     }
+
+    @Test
+    void conjuredItemQualityDegradesTwiceAsFastAsNormalItem() {
+        Item[] items = new Item[]{new Item("Conjured", 10, 20)};
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(app.items[0].toString(), new Item("Conjured", 9, 18).toString());
+    }
 }

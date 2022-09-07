@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-09-07T15:10:01" hostname="mahmouds-MacBook-Pro.local" time="0.056">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2022-09-07T15:17:49" hostname="mahmouds-MacBook-Pro.local" time="0.073">
   <properties/>
-  <testcase name="backstagePassesItemQualityDropsToZeroAfterConcert()" classname="com.gildedrose.GildedRoseTest" time="0.037"/>
-  <testcase name="onceTheSellByDateHasPassedQualityDegradesTwiceAsFast()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="elixirOfTheMongooseItemQualityDecreasesByNextDay()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="dexterityVestItemQualityDecreasesByNextDay()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstagePassesItemQualityDropsToZeroAfterConcert()" classname="com.gildedrose.GildedRoseTest" time="0.038"/>
+  <testcase name="onceTheSellByDateHasPassedQualityDegradesTwiceAsFast()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="elixirOfTheMongooseItemQualityDecreasesByNextDay()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="dexterityVestItemQualityDecreasesByNextDay()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
   <testcase name="sulfurasLegendaryItemNeverSoldOrDecreasesInQuality()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="qualityOfBackstagePassesItemIsNeverMoreThan50()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="agedBrieItemQualityIncreasesTheOlderItGets()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="foo()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="qualityOfAgedBrieItemIsNeverMoreThan50()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="backstagePassesItemQualityIncreasesByThreeWhenThereAreFiveDays()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="conjuredItemQualityDegradesTwiceAsFastAsNormalItem()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="qualityOfBackstagePassesItemIsNeverMoreThan50()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="agedBrieItemQualityIncreasesTheOlderItGets()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="foo()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="qualityOfAgedBrieItemIsNeverMoreThan50()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="backstagePassesItemQualityIncreasesByThreeWhenThereAreFiveDays()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="qualityOfAnItemIsNeverNegative()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="backstagePassesItemQualityIncreasesByTwoWhenThereAreTenDays()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="backstagePassesItemQualityIncreasesTheOlderItGets()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="backstagePassesItemQualityIncreasesByTwoWhenThereAreTenDays()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="backstagePassesItemQualityIncreasesTheOlderItGets()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="backstagePassesItemQualityIncreasesByThreeWhenThereAreLessThanFiveDaysAndMoreThanZeroDays()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="backstagePassesItemQualityIncreasesByTwoWhenThereAreLessThanTenDaysAndMoreThanFiveDays()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

@@ -4,6 +4,7 @@ class GildedRose {
     public static final String AGED_BRIE = "Aged Brie";
     public static final String BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert";
     public static final String SULFURAS = "Sulfuras, Hand of Ragnaros";
+    public static final String Conjured = "Conjured";
     Item[] items;
 
     public GildedRose(Item[] items) {
@@ -18,9 +19,10 @@ class GildedRose {
     }
 
     private void updateItemQuality(Item item) {
+        int basicDecreaseRate = item.name.equals(Conjured) ? 2 : 1;
         boolean shouldDecrease = !item.name.equals(AGED_BRIE) && !item.name.equals(BACKSTAGE_PASSES) && !item.name.equals(SULFURAS);
         if (shouldDecrease) {
-            int decreaseRate = item.sellIn < 1 ? 2 : 1;
+            int decreaseRate = item.sellIn < 1 ? 2 : basicDecreaseRate;
             calculateItemQuality(item, -decreaseRate);
         }
         if (item.name.equals(AGED_BRIE)) {
