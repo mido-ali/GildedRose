@@ -1,4 +1,16 @@
+com/gildedrose/BackstagePassItemStrategy.java
+ com.gildedrose.BackstagePassItemStrategy
+com/gildedrose/NormalItemStrategy.java
+ com.gildedrose.NormalItemStrategy
+com/gildedrose/AgedBrieItemStrategy.java
+ com.gildedrose.AgedBrieItemStrategy
 com/gildedrose/GildedRose.java
  com.gildedrose.GildedRose
+com/gildedrose/ItemStrategy.java
+ com.gildedrose.ItemStrategy
 com/gildedrose/Item.java
  com.gildedrose.Item
+com/gildedrose/SulfurasItemStrategy.java
+ com.gildedrose.SulfurasItemStrategy
+com/gildedrose/ConjuredItemStrategy.java
+ com.gildedrose.ConjuredItemStrategy
