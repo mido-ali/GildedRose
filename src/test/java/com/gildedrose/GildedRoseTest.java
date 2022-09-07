@@ -76,6 +76,14 @@ class GildedRoseTest {
     }
 
     @Test
+    void sulfurasLegendaryItemQualityIsEightyAndNeverAlters() {
+        Item[] items = new Item[]{new Item("Sulfuras, Hand of Ragnaros", -1, 80)};
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(app.items[0].toString(), new Item("Sulfuras, Hand of Ragnaros", -1, 80).toString());
+    }
+
+    @Test
     void backstagePassesItemQualityIncreasesTheOlderItGets() {
         Item[] items = new Item[]{new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20)};
         GildedRose app = new GildedRose(items);
